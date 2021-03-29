@@ -13,6 +13,7 @@ while True:
     print("Stocks")
     print("1. Apple")
     print("2. Google")
+    print("3. EXIT")
     print('*******************************')
     
     print()
@@ -38,6 +39,7 @@ while True:
             
             # Specific Year
             if option == '1':
+                print ("Year options: 2019, 2020")
                 year = input('Enter the year: ') # User Input for Year Option
                 if year == '2019':
                     print("Columns: Low, High, Adj Close, Volume")
@@ -85,6 +87,7 @@ while True:
             
             # Specific Month
             if option == '3':
+                print ("Year options: 2019, 2020")
                 year = input("Enter the Year: ")
                 if year == '2020':
                     print(' Months for which data is available: \n 1: January \n 2: February \n 3: March \n 4: April \n 5: May \n 6: June \n 7: July \n 8: August \n 9: September \n 10: October \n 11: November \n 12: December')
@@ -120,6 +123,7 @@ while True:
 
             # Half Yearly
             if option == '4':
+                print ("Year options: 2019, 2020")
                 year = input("Enter the Year: ")
                 if year == '2019':
                     print("Columns: Low, High, Adj Close, Volume")
@@ -169,6 +173,7 @@ while True:
 
             # Quarterly
             if option == '5':
+                print ("Year options: 2019, 2020")
                 year = input("Enter the Year: ")
                 if year == '2019':
                     print("Columns: Low, High, Adj Close, Volume")
@@ -260,6 +265,7 @@ while True:
 
             # Specific Year
             if option == '1':
+                print ("Year options: 2019, 2020")
                 year = input('Enter the year: ') # User Input for Year Option
                 if year == '2019':
                     print("Columns: Low, High, Adj Close, Volume")
@@ -306,6 +312,7 @@ while True:
             
             # Specific Month
             if option == '3':
+                print ("Year options: 2019, 2020")
                 year = input("Enter the Year: ")
                 if year == '2020':
                     print(' Months for which data is available: \n 1: January \n 2: February \n 3: March \n 4: April \n 5: May \n 6: June \n 7: July \n 8: August \n 9: September \n 10: October \n 11: November \n 12: December')
@@ -341,6 +348,7 @@ while True:
 
             # Half Yearly
             if option == '4':
+                print ("Year options: 2019, 2020")
                 year = input("Enter the Year: ")
                 if year == '2019':
                     print("Columns: Low, High, Adj Close, Volume")
@@ -390,6 +398,7 @@ while True:
 
             # Quarterly  
             if option == '5':
+                print ("Year options: 2019, 2020")
                 year = input("Enter the Year: ")
                 if year == '2019':
                     print("Columns: Low, High, Adj Close, Volume")
